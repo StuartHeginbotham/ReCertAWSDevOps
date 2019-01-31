@@ -1,0 +1,17 @@
+{
+  "AWSTemplateFormatVersion":"2010-09-09",
+  "Parameters":{
+    "Bucketname":{
+      "Type":"String",
+      "Default":"Stus Chipmunks",
+      "Description":"Enter bucket name",
+      "MinLength":"5",
+      "MaxLength":"30"
+    }
+  },
+  "Resources":{
+    "myBucket":{
+      "Type":"AWS::S3::Bucket"
+    }
+  }
+}

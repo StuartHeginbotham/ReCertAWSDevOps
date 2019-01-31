@@ -1,0 +1,18 @@
+***Not resolved***
+
+{
+  "Resources":{
+    "myDB":{
+      "Type":"AWS::RDS::DBInstance",
+      "Properties":{
+        "AllocatedStorage":"5",
+        "DBInstanceClass":"db.m1.small",
+        "Engine":"MySQL",
+        "MasterUsername":"dbuser",
+        "MasterUserPassword":"dbpassword123!",
+        "StorageType":"gp2",
+        "MultiAZ" : "false"
+      }
+    }
+  }
+}

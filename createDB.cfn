@@ -1,5 +1,3 @@
-***Not resolved***
-
 {
   "Resources":{
     "myDB":{
@@ -11,7 +9,7 @@
         "MasterUsername":"dbuser",
         "MasterUserPassword":"dbpassword123!",
         "StorageType":"gp2",
-        "MultiAZ" : "false"
+        "MultiAZ" : false
       }
     }
   }
